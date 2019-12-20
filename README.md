@@ -46,7 +46,9 @@ Note: The system is developed assume extremely limited resources(GTX 1050 2GB), 
 * **Alex O'kennard**
 
 ## Demo
+### Demo in door
 [![Demo1](https://github.com/kyleliang919/Gesture-Control-of-Autonomous-Vehicle/blob/master/thumbnails/demo1.png)](https://www.youtube.com/watch?v=nNd_gHcEi-4)
+### Demo outdoor
 [![Demo2](https://github.com/kyleliang919/Gesture-Control-of-Autonomous-Vehicle/blob/master/thumbnails/demo2.png)](https://www.youtube.com/watch?v=5Q1_zXuTLAw)
 ## License
 
