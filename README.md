@@ -18,9 +18,6 @@ What things you need to install the software and how to install them
 * ROS Kinetic
 * Openpose(https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 * Openpose-ROS (https://github.com/ildoonet/ros-openpose)
-```
-Give examples
-```
 
 ### Installing
 Assuming you have ROS Kinetic in place
@@ -49,8 +46,8 @@ Note: The system is developed assume extremely limited resources(GTX 1050 2GB), 
 * **Alex O'kennard**
 
 ## Demo
-[![Demo1](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=nNd_gHcEi-4)
-[![Demo2](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=5Q1_zXuTLAw)
+[![Demo1](https://github.com/kyleliang919/Gesture-Control-of-Autonomous-Vehicle/blob/master/thumbnails/demo1.png)](https://www.youtube.com/watch?v=nNd_gHcEi-4)
+[![Demo2](https://github.com/kyleliang919/Gesture-Control-of-Autonomous-Vehicle/blob/master/thumbnails/demo2.png)](https://www.youtube.com/watch?v=5Q1_zXuTLAw)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
