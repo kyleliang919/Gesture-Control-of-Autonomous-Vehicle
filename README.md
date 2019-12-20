@@ -8,84 +8,58 @@ In this repo, we develop a new interface of human interaction with Autonomous Ve
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine. You will need a fully functional autonomous vechile with camera configured to be able to run the control. But to simulate the control with print statement and run openpose, you don't really need a car.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
-
+* Python 2.7
+* OpenCV 3.4
+* ROS Kinetic
+* Openpose(https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+* Openpose-ROS (https://github.com/ildoonet/ros-openpose)
 ```
 Give examples
 ```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Assuming you have ROS Kinetic in place
+1. Install and compiling openpose following the instruction provided in the official github
+2. Configure the paths in openpose-ros following the instruction provided in the above github
+3. download and move the scripts and codes to the corresponding folder
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+1. Run scripts/start_image_dd.sh to start a ros node that post downsampled camera feed(change the subscription topic to your hardware configuration)
+2. Run scripts/start_openpose.sh to start openpose_ros, you should see a window popping up and pose being visualized
+3. Run control_finetune.sh to start driving with hand gesture
 
-### Break down into end to end tests
+Note: The system is developed assume extremely limited resources(GTX 1050 2GB), if you have better hardware you might want to use high resolution and frame rates.
 
-Explain what these tests test and why
-
+### Gesture:
+* Raise left hand to turn left
+* Raise right hand to turn right
+* Cross arm to accelerate
+* Raise both hands to brake
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Kaizhao Liang**
+* **Dean Li**
+* **Alex O'kennard**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
+## Demo
+[![Demo1](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=nNd_gHcEi-4)
+[![Demo2](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=5Q1_zXuTLAw)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* I want to thank my wonderful teammates Dean Li and Alex O'kennard for all the hardwork put in the project
+* Also special acknowledgments for Dean's bravery to be the test subject
+* I also to thank our instructor, David Forsyth for all his advices and insights
