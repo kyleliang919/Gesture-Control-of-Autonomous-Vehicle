@@ -41,9 +41,6 @@ Note: The system is developed assume extremely limited resources(GTX 1050 2GB), 
 * Raise right hand to turn right
 * Cross arm to accelerate
 * Raise both hands to brake
-```
-Give an example
-```
 
 ## Authors
 
