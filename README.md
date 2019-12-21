@@ -52,7 +52,7 @@ Note: The system is developed assume extremely limited resources(GTX 1050 2GB), 
 [![Demo2](https://github.com/kyleliang919/Gesture-Control-of-Autonomous-Vehicle/blob/master/thumbnails/demo2.png)](https://www.youtube.com/watch?v=5Q1_zXuTLAw)
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
