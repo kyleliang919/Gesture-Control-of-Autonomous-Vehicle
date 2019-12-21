@@ -58,4 +58,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * I want to thank my wonderful teammates Dean Li and Alex O'kennard for all the hardwork put in the project
 * Also special acknowledgments for Dean's bravery to be the test subject
-* I also to thank our instructor, David Forsyth for all his advices and insights
+* I also need to thank our instructor, David Forsyth for all his advices and insights
